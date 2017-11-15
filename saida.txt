@@ -1,0 +1,40 @@
+
+Expressao correta - 
+
+Expressao correta - /*/*/ www  ;
+
+Expressao correta - w8w;
+
+Expressao correta -   /*788www*/ww88w/**8989**/;
+
+Expressao correta - /**/
+
+Expressao Incorreta State: 0 - 6
+
+Expressao Incorreta State: 0 - 6w
+
+Expressao correta - w 
+
+Expressao Incorreta State: 3 - w w 
+
+Expressao correta -   /*788www*/ww88w/**8989**/;
+
+Expressao Incorreta State: 6 - w==
+
+Expressao Incorreta State: 6 - w = +
+
+Expressao Incorreta State: 21 - w= /**/ w;/**//**/9
+
+Expressao correta - w= /**/ w;/**//**/
+
+Expressao correta - w = 699999;
+
+Expressao correta - w = w +/**/  66;/**/  /**/
+
+Expressao correta - w = w +/**/  w;/**/  /**/
+
+Expressao correta - w = 6 + w;
+
+Expressao correta - w=w+6+w/**/;/*iiii*/
+
+Expressao Incorreta State: 0 - //
