@@ -12,6 +12,7 @@
 int scanner(char automato[100]);
 bool initBlock(char automato[100], int i);
 bool endBlcok (char automato[100], int i);
+bool twoBar(char automato[100], int i);
 int spaceWhite(char automato[100], int i);
 bool finalLine(char automato[100],int i);
 int ifLetter(char letter);
@@ -65,6 +66,11 @@ bool initBlock(char automato[100], int i){
 bool endBlcok (char automato[100], int i){
     return automato[i-1] == '*' && automato[i] == '/';
 }
+
+bool twoBar(char automato[100], int i){
+	return automato[i] == '/' && automato[i+1] == '/';
+}
+
 int spaceWhite(char automato[100], int i){
     while (automato[i] == ' ') {
         i++;
@@ -84,7 +90,7 @@ int numbers(char automato[100], int i){
     return i;
 }
 bool finalLine(char automato[100],int i){
-    return automato[i] == 10 || automato[i] == 13 || automato[i] == ';';
+    return automato[i] == 10 || automato[i] == 13 || automato[i] == ';' || twoBar(automato,i);
 }
 int ifLetter(char letter){
     return search(letter, letra);

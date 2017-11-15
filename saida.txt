@@ -37,4 +37,8 @@ Expressao correta - w = 6 + w;
 
 Expressao correta - w=w+6+w/**/;/*iiii*/
 
-Expressao Incorreta State: 0 - //
+Expressao correta - w//
+
+Expressao correta - w=w*2;
+
+Expressao correta - w=w/w;
